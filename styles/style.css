@@ -1,0 +1,157 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main-btn {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Header section */
+.header-section {
+    color: white;
+    text-align: right;
+    background-image: url('../images/banner/banner3.png');
+    padding-top: 180px;
+    padding-bottom: 170px;
+    padding-right: 110px;
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-descr {
+    padding-bottom: 32px;
+}
+
+/* Main Section */
+.previous-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+
+}
+
+.pre-descr {
+    padding-top: 70px;
+}
+
+#pre-header {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#pre-para {
+    color: #444343;
+}
+
+.pre-ul li {
+    padding-top: 15px;
+}
+
+/* Plan Section */
+.plan-sec {
+    margin: 100px 200px;
+}
+
+#plan-header {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plans {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Posiitive Section */
+.positive-sec {
+    margin: 100px 200px;
+    background-image: url('../images/gradient1.png');
+}
+
+.positive-sec h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+.positive-sec button {
+    margin-left: 60px;
+    margin-bottom: 67px;
+}
+
+/* Footer Section */
+.footer-sec {
+    color: white;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
+
+.future-sec h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.future-img-sec img{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.subscribe h1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subs-place {
+    display: flex;
+    flex-direction: column;
+}
+
+#subs-holder {
+    padding: 15px 40px;
+}
+
+#subs-btn {
+    color: white;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
