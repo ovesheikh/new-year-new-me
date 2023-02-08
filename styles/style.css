@@ -90,10 +90,44 @@
     color: #737272;
 }
 
+/* Books Section */
+.books-sec {
+    background-color: rosybrown;
+    border-radius: 5px;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.some-books {
+    padding: 50px;
+}
+
+.some-books h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.some-books p {
+    color: #444343;
+}
+
+.read-btn {
+    color: rosybrown;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
 /* Posiitive Section */
 .positive-sec {
     margin: 100px 200px;
-    background-image: url('../images/gradient1.png');
+    background-image: url('../images/gradient1.png'), url(../images/watch.png);
+    background-blend-mode: normal;
 }
 
 .positive-sec h1 {
@@ -126,7 +160,8 @@
     font-weight: 700;
     font-size: 45px;
 }
-.future-img-sec img{
+
+.future-img-sec img {
     padding-top: 10px;
     padding-right: 20px;
 }
